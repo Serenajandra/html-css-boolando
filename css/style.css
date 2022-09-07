@@ -52,3 +52,28 @@ header{
         background-color:blue;
         height: 30px;
 }
+
+    /* MAIN */
+ 
+    .container{
+        display: flex;
+        margin: 30px auto;
+        width: 60%;
+        flex-wrap: wrap;
+        /* debug   */
+        background-color: cadetblue;
+        min-height: 500px;
+    }
+
+    .section{
+        width: calc(100% / 3 - 5%);
+        justify-items: space-between;
+        
+        /* debug */
+        margin: 20px auto;
+        height: 350px;
+        background-color: aquamarine;
+        border-style: solid;
+        border-color: black;
+
+    }
