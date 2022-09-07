@@ -11,6 +11,7 @@ html{
 }
 img{
     max-width: 100%;
+    position:absolute;
 }
 
 /* UTILITIES */
@@ -44,7 +45,7 @@ header{
 
     /* debug */
         background-color: aquamarine;
-        height: 30px;
+        min-height: 30px;
 }
 
 .right{
@@ -87,11 +88,17 @@ header{
         
         /* debug */
         margin: 0px auto;
-        margin-bottom: 30px;
-        height: 350px;
+        /* height: 350px; */
         background-color: aquamarine;
         border-style: solid;
         border-color: black;
+   
+
+    }
+
+    #second:hover{
+        display: none;
+
 
     }
 
@@ -107,18 +114,20 @@ header{
 
     .red{
         position:absolute;
-        bottom: 0;
-        left:0;
+        bottom: 55px;
+        left:5px;
         background-color: red;
         color: white;
+        z-index: 1;
 
     }
 
     .green{
         position:absolute;
-        bottom:0;
-        left: 50px;
+        bottom:55px;
+        left: 60px;
         background-color: green;
+        z-index: 1;
 
     }
 
