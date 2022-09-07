@@ -39,7 +39,7 @@ header{
 }
 
 .logo{
-    /* position: absolute; */
+ /* position: absolute;    */
     left: 40%;
 
     /* debug */
@@ -129,4 +129,41 @@ header{
         font-size: 0.9em;
             /* debug */
             background-color: aqua;
+    }
+
+
+    /* FOOTER */
+
+    footer{
+        position: relative;
+        color: white;
+        background-color: black;
+        width: 100%;
+        /* debug */
+        height: 60px;
+    }
+
+    .footer-left>h4{
+        margin:0.5em auto;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+        margin-right: 1em;
+    }
+
+    .footer-left{
+        position:absolute;
+        color:white;
+        left:10%;
+        top:0;   
+    }
+
+    .footer-right{
+        position:absolute;
+        color:white;
+        right: 10%;
+        top:0;
+        
     }
