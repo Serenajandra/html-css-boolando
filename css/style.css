@@ -6,6 +6,9 @@
 }
 
 /* COMMON */
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 img{
     max-width: 100%;
 }
@@ -65,15 +68,65 @@ header{
         min-height: 500px;
     }
 
-    .section{
+    .cards-container{
+        display:flex;
+        position: relative;
+        background-color: blue;
         width: calc(100% / 3 - 5%);
         justify-items: space-between;
+        border-style: solid;
+        border-color: black;
+        margin: 10px auto;
+        height: 420px;
+      
+    }
+
+    .section{
+        position:relative;
+        width: 100%;
         
         /* debug */
-        margin: 20px auto;
+        margin: 0px auto;
+        margin-bottom: 30px;
         height: 350px;
         background-color: aquamarine;
         border-style: solid;
         border-color: black;
 
+    }
+
+    .heart{
+        position:absolute;
+        top: 0;
+        right: 0;
+        background-color: white;
+        text-align: center;
+        font-size: 2em;
+        padding: 0.1em 0.3em;
+    }
+
+    .red{
+        position:absolute;
+        bottom: 0;
+        left:0;
+        background-color: red;
+        color: white;
+
+    }
+
+    .green{
+        position:absolute;
+        bottom:0;
+        left: 50px;
+        background-color: green;
+
+    }
+
+    .description{
+        position: absolute; 
+        
+        bottom:0;
+        font-size: 0.9em;
+            /* debug */
+            background-color: aqua;
     }
